@@ -1,7 +1,5 @@
 # Toomy
-Toomy is a discord bot
-
-It's going to be one of the most advanced music bot ever created and is going to made with Discord.js
+Toomy is a discord bot made with replit and it's going to be one of the most advanced music bot ever created and is going to made with Discord.js
 
 # Commands
 
