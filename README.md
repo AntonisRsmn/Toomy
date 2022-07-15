@@ -5,13 +5,13 @@ Toomy is a discord bot made with replit and it's going to be one of the most adv
 
 The current slash commands (there are not music commands yet):
 
-/clear | You can delete messages in the server
+/clear | Delete messages in the server min:1 max:99
 
-/ping | Send you back pong
+/ping | Sends you back pong
 
-/avatar | Sends you back your profile picture with a free link
+/avatar | Sends you back your profile picture with free hosting link
 
-/user-info | Gives you information about your account or other members
+/user-info | Gives you information about your self
 
 /server | Gives you information about the server
 
