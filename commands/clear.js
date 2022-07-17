@@ -1,10 +1,12 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const { PermissionFlagsBits } = require('discord-api-types/v10');
 
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('clear')
 		.setDescription('Delete up to 99 messages.')
-		.addIntegerOption(option => option.setName('amount').setDescription('Number of messages to delete')),
+		.addIntegerOption(option => option.setName('amount').setDescription('Number of messages to delete'))
+    .setDefaultMemberPermissions(PermissionFlagsBits.ManageMessages),
 	async execute(interaction) {
 		const amount = interaction.options.getInteger('amount');
 

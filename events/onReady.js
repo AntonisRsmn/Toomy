@@ -3,6 +3,6 @@ module.exports = {
 	once: true,
 	execute(client) {
 		console.log(`Ready! Logged in as ${client.user.tag}`);
-    client.user.setActivity("@Toomy", { type: "LISTENING" })
+    client.user.setActivity("/help", { type: "LISTENING" })
 	},
 };
